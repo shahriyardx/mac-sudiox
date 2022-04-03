@@ -1,10 +1,8 @@
 import React from 'react'
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai'
 
-const Review = () => {
-  const author = "Shahriyar"
-  const content = "This thing is a beast because of its performance"
-  const stars = 4
+const Review = ({ review }) => {
+  const { author, content, stars } = review
 
   return (
     <div className='p-4 rounded-md bg-zinc-500/20'>

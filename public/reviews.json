@@ -1,0 +1,10 @@
+{
+  "reviews": [
+    {"id": 1, "author": "Shahriyar", "stars": 5,"content": "The best mini pc I've ever seen in my life. Definitely gonna buy this soon"},
+    {"id": 2, "author": "Anika", "stars": 4,"content": "Amount of performance it provides in the small box is unbelieveable"},
+    {"id": 3, "author": "Kabir", "stars": 5,"content": "If you are a real productivity hunter go for this. You will never regret"},
+    {"id": 4, "author": "Mehedi", "stars": 4,"content": "Buying this was the best decision in my life."},
+    {"id": 5, "author": "Tanu", "stars": 4,"content": "This tiny thing made my life a lot easier. Now I dont have to wait hours to finish my project"},
+    {"id": 6, "author": "Kuddus", "stars": 5,"content": "OMG Mac studio with M1 Ultra is the actual game changer for everyone"}
+  ]
+}
