@@ -4,7 +4,7 @@ import Button from '../../components/Button'
 import Container from '../../components/Container'
 import Review from '../../components/Review/Review'
 
-const Reviews = () => {
+const ReviewsContainer = () => {
   const reviews = useReviews()
 
   return (
@@ -22,4 +22,4 @@ const Reviews = () => {
   )
 }
 
-export default Reviews
+export default ReviewsContainer
