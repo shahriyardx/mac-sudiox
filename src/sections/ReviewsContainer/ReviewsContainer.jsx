@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import useReviews from '../../../hooks/useReviews'
 import Button from '../../components/Button'
 import Container from '../../components/Container'
@@ -6,6 +7,7 @@ import Review from '../../components/Review/Review'
 
 const ReviewsContainer = () => {
   const reviews = useReviews()
+  const navigate = useNavigate()
 
   return (
     <Container className='py-10'>
@@ -16,7 +18,7 @@ const ReviewsContainer = () => {
       </div>
 
       <div className='mt-5 text-center'>
-        <Button text="See all reviews" className='bg-indigo-500 hover:bg-indigo-600' />
+        <Button text="See all reviews" className='bg-indigo-500 hover:bg-indigo-600' onClick={() => navigate('reviews')}/>
       </div>
     </Container>
   )
