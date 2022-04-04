@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom"
 import Reviews from "./pages/Reviews"
 import Header from "./components/Header/Header"
 import Dashboard from "./pages/Dashboard"
+import E404 from "./pages/E404"
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="reviews" element={<Reviews />} />
         <Route path="dashboard" element={<Dashboard />} />
-        <Route path="*" element={<p>Hello world</p>} />
+        <Route path="*" element={<E404 />} />
       </Routes>
     </div>
   )
