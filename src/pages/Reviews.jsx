@@ -1,7 +1,7 @@
 import React from 'react'
 import useReviews from '../../hooks/useReviews'
 import Container from '../components/Container'
-import Review from '../components/Review/Review'
+import Review from '../components/Review'
 
 const Reviews = () => {
   const reviews = useReviews()

@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useReviews from '../../../hooks/useReviews'
 import Button from '../../components/Button'
 import Container from '../../components/Container'
-import Review from '../../components/Review/Review'
+import Review from '../../components/Review'
 
 const ReviewsContainer = () => {
   const reviews = useReviews()
