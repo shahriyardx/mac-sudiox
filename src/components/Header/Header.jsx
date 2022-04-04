@@ -1,13 +1,14 @@
 import Container from '../Container'
 import React from 'react'
 import NavLink from './NavLink'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <header className='py-3'>
       <Container className='flex flex-col items-center justify-center gap-3 sm:gap-0 sm:flex-row'>
          <div className="text-2xl font-bold uppercase">
-            MAC STUDIO
+            <Link to="/">MAC STUDIO</Link>
          </div>
 
          <nav className='flex items-center gap-3 sm:ml-auto'>
