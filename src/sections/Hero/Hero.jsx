@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
 
           <div className='mt-10'>
-            <button className='px-4 py-3 text-lg font-bold bg-indigo-500 rounded-md hover:bg-indigo-600'>Show Information</button>
+            <a href='https://www.apple.com/mac-studio/' target='_blank' className='px-4 py-3 text-lg font-bold bg-indigo-500 rounded-md hover:bg-indigo-600'>Show Information</a>
           </div>
         </div>
       </div>
