@@ -8,7 +8,7 @@ const Header = () => {
     <header className='py-3'>
       <Container className='flex flex-col items-center justify-center gap-3 sm:gap-0 sm:flex-row'>
          <div className="text-2xl font-bold uppercase">
-            <Link to="/">MAC STUDIO</Link>
+            <Link to="/" className='text-zinc-400 hover:text-white'>MAC STUDIO</Link>
          </div>
 
          <nav className='flex items-center gap-3 sm:ml-auto'>
